@@ -1,0 +1,71 @@
+iteration,classifier,accuracy,sensitivity,specificity,macc,config,best_classifier
+1,Nearest Neighbors,0.5572916666666666,0.5217391304347826,0.5684931506849316,0.545116140559857,{'rms': {}},Neural Net
+1,Linear SVM,0.7604166666666666,0.0,1.0,0.5,{'rms': {}},Neural Net
+1,RBF SVM,0.78125,0.10869565217391304,0.9931506849315068,0.55092316855271,{'rms': {}},Neural Net
+1,Gaussian Process,0.6822916666666666,0.41304347826086957,0.7671232876712328,0.5900833829660512,{'rms': {}},Neural Net
+1,Decision Tree,0.6145833333333334,0.45652173913043476,0.6643835616438356,0.5604526503871352,{'rms': {}},Neural Net
+1,Random Forest,0.59375,0.5652173913043478,0.6027397260273972,0.5839785586658726,{'rms': {}},Neural Net
+1,Neural Net,0.6927083333333334,0.41304347826086957,0.7808219178082192,0.5969326980345444,{'rms': {}},Neural Net
+1,AdaBoost,0.5364583333333334,0.5217391304347826,0.541095890410959,0.5314175104228708,{'rms': {}},Neural Net
+1,Naive Bayes,0.7447916666666666,0.21739130434782608,0.910958904109589,0.5641751042287075,{'rms': {}},Neural Net
+1,QDA,0.7447916666666666,0.21739130434782608,0.910958904109589,0.5641751042287075,{'rms': {}},Neural Net
+2,Nearest Neighbors,0.6770833333333334,0.6521739130434783,0.684931506849315,0.6685527099463966,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+2,Linear SVM,0.6927083333333334,0.6304347826086957,0.7123287671232876,0.6713817748659916,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+2,RBF SVM,0.7395833333333334,0.0,0.9726027397260274,0.4863013698630137,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+2,Gaussian Process,0.5572916666666666,0.5217391304347826,0.5684931506849316,0.545116140559857,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+2,Decision Tree,0.7135416666666666,0.4782608695652174,0.7876712328767124,0.6329660512209649,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+2,Random Forest,0.6979166666666666,0.5869565217391305,0.7328767123287672,0.6599166170339488,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+2,Neural Net,0.6875,0.5217391304347826,0.7397260273972602,0.6307325789160214,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+2,AdaBoost,0.6666666666666666,0.6304347826086957,0.678082191780822,0.6542584871947588,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+2,Naive Bayes,0.7083333333333334,0.6956521739130435,0.7123287671232876,0.7039904705181655,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+2,QDA,0.7135416666666666,0.6739130434782609,0.726027397260274,0.6999702203692675,"{'rms': {}, 'mfcc': {}}",Naive Bayes
+3,Nearest Neighbors,0.6822916666666666,0.6521739130434783,0.6917808219178082,0.6719773674806433,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+3,Linear SVM,0.6927083333333334,0.6304347826086957,0.7123287671232876,0.6713817748659916,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+3,RBF SVM,0.7395833333333334,0.0,0.9726027397260274,0.4863013698630137,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+3,Gaussian Process,0.5520833333333334,0.5217391304347826,0.5616438356164384,0.5416914830256105,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+3,Decision Tree,0.71875,0.4782608695652174,0.7945205479452054,0.6363907087552114,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+3,Random Forest,0.6354166666666666,0.5,0.678082191780822,0.589041095890411,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+3,Neural Net,0.703125,0.5217391304347826,0.7602739726027398,0.6410065515187612,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+3,AdaBoost,0.6197916666666666,0.6304347826086957,0.6164383561643836,0.6234365693865396,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+3,Naive Bayes,0.7083333333333334,0.6956521739130435,0.7123287671232876,0.7039904705181655,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+3,QDA,0.71875,0.6956521739130435,0.726027397260274,0.7108397855866587,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}}",QDA
+4,Nearest Neighbors,0.6822916666666666,0.6521739130434783,0.6917808219178082,0.6719773674806433,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+4,Linear SVM,0.6927083333333334,0.6304347826086957,0.7123287671232876,0.6713817748659916,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+4,RBF SVM,0.7395833333333334,0.0,0.9726027397260274,0.4863013698630137,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+4,Gaussian Process,0.5520833333333334,0.5217391304347826,0.5616438356164384,0.5416914830256105,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+4,Decision Tree,0.71875,0.4782608695652174,0.7945205479452054,0.6363907087552114,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+4,Random Forest,0.6979166666666666,0.6086956521739131,0.726027397260274,0.6673615247170935,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+4,Neural Net,0.6927083333333334,0.5217391304347826,0.7465753424657534,0.634157236450268,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+4,AdaBoost,0.6197916666666666,0.6304347826086957,0.6164383561643836,0.6234365693865396,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+4,Naive Bayes,0.7083333333333334,0.6956521739130435,0.7123287671232876,0.7039904705181655,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+4,QDA,0.71875,0.6956521739130435,0.726027397260274,0.7108397855866587,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}}",QDA
+5,Nearest Neighbors,0.6822916666666666,0.6521739130434783,0.6917808219178082,0.6719773674806433,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+5,Linear SVM,0.6927083333333334,0.6304347826086957,0.7123287671232876,0.6713817748659916,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+5,RBF SVM,0.7395833333333334,0.0,0.9726027397260274,0.4863013698630137,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+5,Gaussian Process,0.5520833333333334,0.5217391304347826,0.5616438356164384,0.5416914830256105,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+5,Decision Tree,0.71875,0.4782608695652174,0.7945205479452054,0.6363907087552114,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+5,Random Forest,0.6822916666666666,0.6086956521739131,0.7054794520547946,0.6570875521143538,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+5,Neural Net,0.703125,0.5434782608695652,0.7534246575342466,0.6484514592019059,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+5,AdaBoost,0.6197916666666666,0.6304347826086957,0.6164383561643836,0.6234365693865396,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+5,Naive Bayes,0.7083333333333334,0.6956521739130435,0.7123287671232876,0.7039904705181655,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+5,QDA,0.71875,0.6956521739130435,0.726027397260274,0.7108397855866587,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}}",QDA
+6,Nearest Neighbors,0.6979166666666666,0.6304347826086957,0.7191780821917808,0.6748064324002383,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+6,Linear SVM,0.6927083333333334,0.6086956521739131,0.7191780821917808,0.663936867182847,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+6,RBF SVM,0.75,0.0,0.9863013698630136,0.4931506849315068,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+6,Gaussian Process,0.5989583333333334,0.41304347826086957,0.6575342465753424,0.535288862418106,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+6,Decision Tree,0.65625,0.6739130434782609,0.6506849315068494,0.6622989874925551,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+6,Random Forest,0.6354166666666666,0.5652173913043478,0.6575342465753424,0.611375818939845,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+6,Neural Net,0.703125,0.5652173913043478,0.7465753424657534,0.6558963668850506,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+6,AdaBoost,0.65625,0.6086956521739131,0.6712328767123288,0.6399642644431209,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+6,Naive Bayes,0.6927083333333334,0.6956521739130435,0.6917808219178082,0.6937164979154258,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+6,QDA,0.6770833333333334,0.6521739130434783,0.684931506849315,0.6685527099463966,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}}",Naive Bayes
+7,Nearest Neighbors,0.65625,0.6739130434782609,0.6506849315068494,0.6622989874925551,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
+7,Linear SVM,0.6822916666666666,0.5869565217391305,0.7123287671232876,0.6496426444312091,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
+7,RBF SVM,0.23958333333333334,1.0,0.0,0.5,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
+7,Gaussian Process,0.6875,0.5869565217391305,0.7191780821917808,0.6530673019654556,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
+7,Decision Tree,0.6354166666666666,0.8043478260869565,0.5821917808219178,0.6932698034544371,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
+7,Random Forest,0.65625,0.6739130434782609,0.6506849315068494,0.6622989874925551,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
+7,Neural Net,0.7291666666666666,0.5652173913043478,0.7808219178082192,0.6730196545562834,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
+7,AdaBoost,0.6979166666666666,0.6956521739130435,0.6986301369863014,0.6971411554496725,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
+7,Naive Bayes,0.6614583333333334,0.6521739130434783,0.6643835616438356,0.6582787373436569,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
+7,QDA,0.6822916666666666,0.6739130434782609,0.684931506849315,0.679422275163788,"{'rms': {}, 'mfcc': {}, 'spectral_contrast': {}, 'zero_crossing_rate': {}, 'chroma': {}, 'spectral_bandwidth': {}, 'spectral_centroid': {}}",AdaBoost
